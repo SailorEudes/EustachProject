@@ -88,7 +88,7 @@
                       {{__('Log file >50M, please download it.')}}
                   </div>
               @else
-                  <table id="table-log" class="table table-striped" data-ordering-index="{{ $standardFormat ? 2 : 0 }}">
+                  <table id="table-log" class="bootstrap-table bootstrap-table-striped" data-ordering-index="{{ $standardFormat ? 2 : 0 }}">
                       <thead>
                       <tr>
                           @if ($standardFormat)
