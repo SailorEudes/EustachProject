@@ -13,3 +13,8 @@ if (process.env.section) {
 }else{
     require(`${__dirname}/webpack.admin.mix.js`);
 }
+
+
+mix.postCss('resources/css/tailwind.css', 'public/css/app.css', [
+    require('tailwindcss'),
+]);
