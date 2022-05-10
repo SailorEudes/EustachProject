@@ -238,8 +238,8 @@
                 ];
             $i = 1;
             @endphp
-            <div class="table-responsive">
-                <table class="table table-bordered">
+            <div class="bootstrap-table-responsive">
+                <table class="bootstrap-table bootstrap-table-bordered">
                     <tr>
                     @foreach($icons as $key => $icon)
                         <td class="col-lg-2 col-md-3 col-sm-4 text-center mb-4">
